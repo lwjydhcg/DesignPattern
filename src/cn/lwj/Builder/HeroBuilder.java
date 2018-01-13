@@ -26,6 +26,6 @@ public class HeroBuilder extends ActorBuilder {
 
     @Override
     void buildHairStyle() {
-        actor.setHairstyle("飘逸");
+        actor.setHairStyle("飘逸");
     }
 }

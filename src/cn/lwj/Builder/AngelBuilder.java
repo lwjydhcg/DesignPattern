@@ -26,6 +26,6 @@ public class AngelBuilder extends ActorBuilder {
 
     @Override
     void buildHairStyle() {
-        actor.setHairstyle("长发飘飘");
+        actor.setHairStyle("长发飘飘");
     }
 }
