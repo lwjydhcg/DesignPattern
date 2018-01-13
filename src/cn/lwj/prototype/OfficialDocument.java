@@ -1,4 +1,4 @@
-package cn.lwj.Prototype;
+package cn.lwj.prototype;
 
 /**
  * Created by Administrator on 2018-01-12.

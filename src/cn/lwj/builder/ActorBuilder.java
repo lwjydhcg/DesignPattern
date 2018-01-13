@@ -1,4 +1,4 @@
-package cn.lwj.Builder;
+package cn.lwj.builder;
 
 /**
  * Created by Administrator on 2018-01-13.

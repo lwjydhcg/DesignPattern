@@ -1,4 +1,4 @@
-package cn.lwj.Prototype;
+package cn.lwj.prototype;
 
 import java.util.Hashtable;
 
