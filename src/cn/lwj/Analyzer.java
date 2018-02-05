@@ -14,12 +14,10 @@ public class Analyzer {
         Set<Model> totals = new HashSet<>(models);
 
         for (Model temp : totals) {
-            for (Model temp2 : totals) {
-                if (temp.source.equals(temp2.origin)) {
-                    temp2.childs.add(temp);
-                    models.remove(temp);
-                }
-            }
+            totals.stream().filter(temp2 -> temp.source.equals(temp2.origin)).forEach(temp2 -> {
+                temp2.childs.add(temp);
+                models.remove(temp);
+            });
         }
         Model start = new Model("start", "start");
         start.childs = models;
