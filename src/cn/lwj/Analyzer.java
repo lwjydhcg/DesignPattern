@@ -25,7 +25,7 @@ public class Analyzer {
     }
 
 
-    public static Set<Model> demoData() {
+    private static Set<Model> demoData() {
         Set<Model> models = new HashSet<>();
         models.add(new Model("大众网", "央视网"));
         models.add(new Model("央视网", "大河网"));
@@ -40,7 +40,7 @@ class Model {
     String source;
     Set<Model> childs = new HashSet<>();
 
-    public Model(String origin, String source) {
+    Model(String origin, String source) {
         this.source = source;
         this.origin = origin;
     }
