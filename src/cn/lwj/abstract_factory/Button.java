@@ -1,7 +1,8 @@
 package cn.lwj.abstract_factory;
 
 /**
- * Created by Administrator on 2018-01-10.
+ * Created by Administrator
+ * 2018-01-10.
  */
 abstract class Button {
     abstract void display();
